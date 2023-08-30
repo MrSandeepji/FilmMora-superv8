@@ -1467,7 +1467,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [ 
-	    InlineKeyboardButton(text="💥 𝐇𝐎𝐖 𝐓𝐎 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 💥, url='https://telegram.me/FilmMoraUpdate/2'),
+	    InlineKeyboardButton(text="💥 𝐇𝐎𝐖 𝐓𝐎 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 💥", url='https://telegram.me/FilmMoraUpdate/2'),
         ] 
     )
     if offset != "":
