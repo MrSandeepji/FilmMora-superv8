@@ -79,7 +79,7 @@ async def start(client, message):
             ],
              [
                 InlineKeyboardButton(
-                    "🦋 SUBSCRIBE YT Channel 🦋", url='https://youtube.com/@LazyDeveloperr'
+                    "🔙 GO BACK 📃", url='https://t.me/{MOVIE_GROUP_USERNAME}'
                 )
             ]
         ]
