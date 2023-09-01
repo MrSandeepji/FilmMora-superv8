@@ -71,7 +71,7 @@ ADMIN_USRNM = environ.get('ADMIN_USRNM','SandeepXD7') # WITHOUT @
 MAIN_CHANNEL_USRNM = environ.get('MAIN_CHANNEL_USRNM','FilmMoraUpdate') # WITHOUT @
 DEV_CHANNEL_USRNM = environ.get('DEV_CHANNEL_USRNM','FilmMoraUpdate') # WITHOUT @
 LAZY_YT_HANDLE = environ.get('LAZY_YT_HANDLE','SandeepXD7')  # WITHOUT @ [  add only handle - don't add full url  ] 
-MOVIE_GROUP_USERNAME = environ.get('MOVIE_GROUP_USERNAME', "+IOic_MUSibkzZmNl") #[ without @ ]
+MOVIE_GROUP_USERNAME = environ.get('MOVIE_GROUP_USERNAME', "+ziDKC-4D9bwyMTI1") #[ without @ ]
 
 # Url Shortner
 URL_MODE = is_enabled((environ.get("URL_MODE","False")), False)
@@ -83,7 +83,7 @@ LAZY_GROUPS = [int(lazy_groups) for lazy_groups in lazy_groups.split()] if lazy_
 my_users = [int(my_users) if id_pattern.search(my_users) else my_users for my_users in environ.get('MY_USERS', '').split()]
 MY_USERS = (my_users) if my_users else []
 
-BOT_USERNAME = environ.get('BOT_USERNAME' ,'FilmMora2bot' ) #bot username
+BOT_USERNAME = environ.get('BOT_USERNAME' ,'FilmMorabot' ) #bot username
 
 # Online Stream and Download
 PORT = int(environ.get('PORT', 8080))
