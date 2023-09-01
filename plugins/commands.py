@@ -79,7 +79,7 @@ async def start(client, message):
             ],
              [
                 InlineKeyboardButton(
-                    "🔙 GO BACK 📃", url='https://t.me/{MOVIE_GROUP_USERNAME}'
+                    "🔙 GO BACK 📃", url='https://t.me/+ziDKC-4D9bwyMTI1'
                 )
             ]
         ]
