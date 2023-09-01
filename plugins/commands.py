@@ -28,7 +28,7 @@ async def start(client, message):
             [
                 InlineKeyboardButton('🙆🏻 Help 🦾', url=f"https://t.me/{BOT_USERNAME}?start=help"),
             ],[
-            InlineKeyboardButton('🙋 Support Group 🙋', url='https://telegram.me/{SUPPORT_CHAT}')
+            InlineKeyboardButton('🙋 Support Group 🙋', url='https://telegram.me/FilmMoraSupport')
             ],
             [
                 InlineKeyboardButton(text=DOWNLOAD_TEXT_NAME,url=DOWNLOAD_TEXT_URL)
@@ -55,7 +55,7 @@ async def start(client, message):
             InlineKeyboardButton('🙆🏻 Help 🦾', callback_data='help'),
             InlineKeyboardButton('♥️ About ♥️', callback_data='about')
             ],[
-            InlineKeyboardButton('🙋 Support Group 🙋', url='https://telegram.me/{SUPPORT_CHAT}')
+            InlineKeyboardButton('🙋 Support Group 🙋', url='https://telegram.me/FilmMoraSupport')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -108,7 +108,7 @@ async def start(client, message):
             InlineKeyboardButton('🙆🏻 Help 🦾', callback_data='help'),
             InlineKeyboardButton('♥️ About ♥️', callback_data='about')
         ],[
-            InlineKeyboardButton('🙋 Support Group 🙋', url='https://telegram.me/{SUPPORT_CHAT}')
+            InlineKeyboardButton('🙋 Support Group 🙋', url='https://telegram.me/FilmMoraSupport')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
