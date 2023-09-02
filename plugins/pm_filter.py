@@ -335,7 +335,7 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [ 
-	    InlineKeyboardButton(text="⚡💥 𝐇𝐎𝐖 𝐓𝐎 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 💥⚡", url='https://telegram.me/LazyDeveloper')
+	    InlineKeyboardButton(text="⚡💥 𝐇𝐎𝐖 𝐓𝐎 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 💥⚡", url='https://telegram.me/FilmMoraUpdate/2')
         ] 
     )
 
